@@ -12,12 +12,13 @@ html{
 }
 
 body{
+	padding-bottom: 2em;
 }
 
 #wrapper{
 	width: $width;
 	margin: 0 auto; 
-	margin-top: 30px;
+	margin-top: 1em;
 	//border: black solid;
 }
 
