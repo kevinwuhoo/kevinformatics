@@ -1,0 +1,44 @@
+	<script>
+		$(function() {
+
+			$('#bioinf').hover(function() {
+				$('#photo').addClass("hide");
+				$('#code').addClass("hide");
+			});
+			
+			$('#coding').hover(function() {
+				$('#photo').addClass("hide");
+				$('#code').removeClass("hide");
+			});
+			
+			$('#photography').hover(function() {
+				$('#code').addClass("hide")
+				$('#photo').removeClass("hide");
+			});
+
+		});
+	</script>
+
+<h2>Read <a href="/about">about me</a> or <a href="/contact">contact me</a>.<h2>
+	
+<h1>I love:</h1>
+
+<div id="love">
+	<a href="http://blog.kevinformatics.com"><h2 id="bioinf" class="hand"> Bioinformatics <h2></a>
+	<h2 id="coding" class="hand"> Coding </h2>
+	<h2 id="photography" class="hand"> Photography </h2>
+	<h2>
+</div>
+<div id="code" class="submenu hide">
+	<h2>
+		<a href="#">Projects</a> <br />
+		<a href="http://github.com/kevinwuhoo">Repository </a>
+	<h2>
+</div>
+<div id="photo" class="submenu hide">
+	<h2>
+		<a href="#">Personal</a> </br>
+		<a href="http://kevinwuphotography.com">Commercial</a>
+	</h2>
+</div>
+				
