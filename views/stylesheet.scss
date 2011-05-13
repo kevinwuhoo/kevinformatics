@@ -7,12 +7,13 @@ $red: #EE3D40;
 html{
 	background: $background;
 	height:100%;
-	font-family: 'PT Sans', arial, serif;
-	font-size: 16px;
 }
 
 body{
+	font-family: 'PT Sans', arial, serif;
+	font-size: 16px;
 	padding-bottom: 2em;
+	line-height: 1.1em;
 }
 
 #wrapper{
@@ -41,8 +42,16 @@ a{
 }
 
 a:hover{
-	color:$text;
-	background:$red;
+	color: $text;
+	background: $red;
+}
+
+a#name_link {
+	color: $text;
+}
+
+#name_link:hover {
+	background: none;
 }
 
 h1 {
@@ -60,4 +69,9 @@ h2 {
 
 li {
 	margin-left: 1em;
+}
+
+a#underconstruction {
+	color: lighten($red, 20%);
+	text-decoration: line-through;
 }
