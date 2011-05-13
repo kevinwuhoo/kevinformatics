@@ -29,13 +29,6 @@ header {
 	height: 70px;
 }
 
-#name {
-	//font-family: 'Droid Sans', arial, serif;
-	font-family: 'PT Serif', arial, serif;
-	font-size: 70px;
-	color: $text;
-}
-
 a{
 	color: $red;
 	text-decoration:none;
@@ -46,11 +39,14 @@ a:hover{
 	background: $red;
 }
 
-a#name_link {
+#name {
+	color: $text;
+	font-family: 'PT Serif', arial, serif;
+	font-size: 70px;
 	color: $text;
 }
 
-#name_link:hover {
+#name:hover {
 	background: none;
 }
 
