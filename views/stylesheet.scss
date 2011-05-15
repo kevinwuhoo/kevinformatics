@@ -12,21 +12,19 @@ html{
 body{
 	font-family: 'PT Sans', arial, serif;
 	font-size: 16px;
-	padding-bottom: 2em;
 	line-height: 1.1em;
 }
 
 #wrapper{
 	width: $width;
 	margin: 0 auto; 
-	margin-top: 1em;
-	//border: black solid;
+	padding: 1em 0;
 }
 
 header {
-	padding: 30px 40px 20px;
+	padding: 0 3em;
 	background: $offwhite;
-	height: 70px;
+	line-height: 2.5em;
 }
 
 a{
@@ -52,7 +50,7 @@ a:hover{
 
 h1 {
 	font-family: 'PT Sans Caption', arial, serif; 
-	font-size: 40px;
+	font-size: 50px;
 	line-height: 1.5em;
 }
 
