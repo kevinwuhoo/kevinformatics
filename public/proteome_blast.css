@@ -1,0 +1,7 @@
+table {
+  font-family: arial, verdana, sans-serif;
+}
+
+tr:nth-child(odd) {
+   background-color:#a9cdeb
+ }
