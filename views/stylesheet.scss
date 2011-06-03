@@ -65,6 +65,10 @@ li {
 	margin-left: 1em;
 }
 
+em {
+  font-weight:bold
+}
+
 a#underconstruction {
 	color: lighten($red, 20%);
 	text-decoration: line-through;
