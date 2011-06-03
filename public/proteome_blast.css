@@ -4,4 +4,12 @@ table {
 
 tr:nth-child(odd) {
    background-color:#a9cdeb
- }
+}
+ 
+tr:first-child {
+    background-color:#ffb90f
+}
+ 
+td {
+  padding: 5px;
+}
