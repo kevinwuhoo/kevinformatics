@@ -1,30 +1,32 @@
 require 'sinatra'
+require 'haml'
 require 'sass'
+require 'rdiscount'
 
 get '/' do
   @is_index = true
   @title = ""
-  erb :index
+  haml :index
 end
 
 get '/about' do
   @title = "About"
-  erb :about
+  haml :about
 end
 
 get '/contact' do
   @title = "Contact"
-  erb :contact
+  haml :contact
 end
 
 get '/projects' do
   @title = "Projects"
-  erb :projects
+  haml :projects
 end
 
 get %r{(resume)|(cv)} do
   @title = "Curriculum Vitae"
-  erb :cv
+  haml :cv
 end
 
 get '/stylesheet.css' do
