@@ -1,4 +1,6 @@
 sinatra
 sass
+haml
+rdiscount
 nokogiri
 json
